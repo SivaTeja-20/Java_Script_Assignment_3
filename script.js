@@ -38,7 +38,7 @@ function berth_type(s,r)
     }else  if (r==9 && s>=65 && s<=72){
          console.log(berth(s))
     }else {
-        return "IVALID"
+        return "INVALID"
     }
   
 }
@@ -46,4 +46,5 @@ function berth_type(s,r)
 console.log(berth_type(54,7))
 console.log(berth_type(45,6))
 console.log(berth_type(12,2))
+console.log(berth_type(1,12))
  
